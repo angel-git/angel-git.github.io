@@ -2,3 +2,53 @@ body {
     font-family: Helvetica, arial, freesans, clean, sans-serif;
     font-size: 15px;
 }
+
+a {
+    color: #fc0;
+    text-decoration: none;
+    transition: all .25s;
+    -moz-transition: all .25s;
+    -webkit-transition: all .25s;
+}
+a:hover {
+    color: #ff602c;
+}
+
+
+/*header*/
+header {
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+}
+header ul {
+
+}
+header ul li {
+    display: inline-block;
+}
+
+
+/*footer*/
+
+body > footer {
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: #FFF;
+}
+.footer-container {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-container-author {
+    display: inline-block;
+    width: 33.3332%;
+}
+.footer-container-github {
+    display: inline-block;
+    width: 65%;
+}
