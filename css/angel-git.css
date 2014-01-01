@@ -5,7 +5,7 @@ html, body {
 body {
     font-family: Helvetica, arial, freesans, clean, sans-serif;
     font-size: 15px;
-    background-color: #FFFBDF;
+    background-color: #badeb7;
     margin: 0;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 a {
-    color: #fc0;
+    color: #ffcaa6;
     text-decoration: none;
     transition: all .25s;
     -moz-transition: all .25s;
@@ -27,10 +27,26 @@ a:hover {
 
 /*body content*/
 section h1 {
-    text-shadow:  2px 2px #fff;
+    text-shadow:  0 1px #fff;
 }
 .body-container {
     padding-bottom: 100px;
+}
+.code-container {
+    width: 700px;
+    margin: 30px auto 0;
+}
+.code {
+    background-color: #3c3f41;
+    border-radius: 7px;
+    padding: 10px;
+}
+.console {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    color: white;
+}
+.keyword {
+    color: #ffcaa6;
 }
 
 /*header*/
@@ -70,7 +86,7 @@ body footer {
     width: 100%;
     padding-bottom: 5px;
     background-color: #FFF;
-    box-shadow: 0 -4px 2px #e7e3c7;
+    box-shadow: 0 -4px 2px #b1d8af;
     margin-top: 50px;
     position: absolute;
     bottom: 0;
