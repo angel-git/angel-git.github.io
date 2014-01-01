@@ -22,7 +22,7 @@ a {
     -webkit-transition: all .25s;
 }
 a:hover {
-    color: #ff602c;
+    /*color: #ff602c;*/
 }
 
 /*body content*/
@@ -30,7 +30,7 @@ section h1 {
     text-shadow:  2px 2px #fff;
 }
 .body-container {
-
+    padding-bottom: 100px;
 }
 
 /*header*/
@@ -59,20 +59,22 @@ header ul li {
 header ul li:hover {
 
 }
-header ul li.active {
-    /*background-color: #4243a3;*/
-    text-decoration: underline;
+header ul li.active a {
+    /*text-decoration: underline;*/
+    color: #3c3f41;
 }
 
 
 /*footer*/
-
-body > footer {
+body footer {
     width: 100%;
     padding-bottom: 5px;
     background-color: #FFF;
     box-shadow: 0 -4px 2px #e7e3c7;
     margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    height: 90px;
 }
 .footer-container {
     display: block;
