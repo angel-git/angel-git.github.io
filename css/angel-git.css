@@ -8,6 +8,7 @@ body {
     background-color: #a6b5c7;
     margin: 0;
     overflow-y: scroll;
+    min-width: 1000px;
 }
 
 .centered {
@@ -40,8 +41,10 @@ section h1 {
 }
 .body-container {
     padding-bottom: 95px;
+    /*margin-left: 190px;*/
 }
 .body-container article {
+    /*margin-left: 130px;*/
     padding: 20px;
     /*border-bottom: 1px dashed #3c3f41;*/
     /*background-color: #9ebc9d;*/
