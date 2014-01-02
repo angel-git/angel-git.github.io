@@ -6,19 +6,41 @@
     <script type="text/javascript" src="js/angel-git.js"></script>
 </head>
 <body>
-<div style="min-height: 100%; position: relative">
+<div class="main-container">
     <header>
         <ul class="centered">
             <li><a href="/">about</a></li>
             <li class="active"><a href="/repo">repositories</a></li>
         </ul>
     </header>
-    <section>
+    <section id="mainSection">
         <div class="body-container centered">
-            <h1>my repos</h1>
             <article>
-                <p><a href="https://github.com/angel-git">Angel github site</a></p>
-                <p>Feel free to fork them!</p>
+                <h1>PirateBay Downloader</h1>
+                <p><a href="https://github.com/angel-git/piratebay-downloader" target="_blank">Github site</a></p>
+                <p>This project connects to a <a href="http://www.pogdesign.co.uk/cat/" target="_blank">calendar tv site</a> and checks the TV shows of the day,
+                    you can choose one and it will search it in Pirate Bay and present on screen a list with the torrents found.
+                    You need to configure where is installed your uTorrent application and some other properties. Is a console and gui environment</p>
+                <img src="img/pirate-console.png" width="600px"/>
+                <p>I'm still working on the feel and look of the GUI version.</p>
+                <img src="img/pirate-gui.png" width="600px"/>
+            </article>
+            <article>
+                <h1>muCommader fork</h1>
+                <p><a href="https://github.com/angel-git/muCommander" target="_blank">Github site</a> :: <a href="http://www.mucommander.com/">muCommander site</a></p>
+                <p>This great open Java file manager is available for almost all the OS.
+                I forked it because there were some missing "important" features as the copy
+                    in background or the open a terminal in the current folder (this only works for Windows and Mac,
+                    currently I don't have any Linux machine running to test it, feel free to make a
+                    <a href="https://github.com/angel-git/muCommander/pulls" target="_blank">pull request</a>).
+                I also created a new dark theme for it.</p>
+                <img src="img/muCommander.png" width="600px"/>
+            </article>
+            <article>
+                <h1>mp3 Downloader</h1>
+                <p><a href="https://github.com/angel-git/mp3-downloader" target="_blank">Github site</a></p>
+                <p>Using the base of the PirateBay Downloader, it allows to download mp3 using a console environment.</p>
+                <img src="img/mp3.png" width="600px"/>
             </article>
         </div>
     </section>
