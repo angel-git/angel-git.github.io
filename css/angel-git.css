@@ -3,109 +3,28 @@ html, body {
 }
 
 body {
-    font-family: Consolas, "Liberation Mono", Courier, monospace;
-    font-size: 15px;
-    background-color: #a6b5c7;
+    font-family: Helvetica,serif;
+    font-size: 16px;
+    background-color: #f6f5f7;
     margin: 0;
     overflow-y: scroll;
-    min-width: 1000px;
+    min-width: 500px;
 }
 
-.centered {
-    margin: 0 auto;
-    max-width: 900px;
-}
-
-a {
-    color: #a37229;
-    text-decoration: none;
-    transition: all .25s;
-    -moz-transition: all .25s;
-    -webkit-transition: all .25s;
-}
-a:hover {
-    color: #4a3413;
+.body-container {
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 200px;
 }
 
 .main-container {
     min-height: 100%;
     position: relative;
-    /*background: url("../img/bg.png") repeat-y scroll left top, url("../img/bg2.png") repeat-y scroll right top;*/
-    background: url("../img/bg.png") repeat-y scroll left top;
 }
 
-/*body content*/
-section h1 {
-    text-shadow:  0 1px #fff;
-    border-bottom: 2px dashed #3c3f41;
-}
-.body-container {
-    padding-bottom: 95px;
-    /*margin-left: 190px;*/
-}
-.body-container article {
-    /*margin-left: 130px;*/
-    padding: 20px;
-    /*border-bottom: 1px dashed #3c3f41;*/
-    /*background-color: #9ebc9d;*/
-    /*border: 2px dashed #3c3f41;*/
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-radius: 7px;
-}
-.body-container article img {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 150px;
-    box-shadow: 5px 5px 5px #888888;
-}
-.code-container {
-    width: 700px;
-    margin: 30px auto 0;
-}
-.code {
-    background-color: #3c3f41;
-    border-radius: 7px;
-    padding: 10px;
-}
-.console {
-    font-family: Consolas, "Liberation Mono", Courier, monospace;
-    color: white;
-}
-.keyword {
-    color: #ffcaa6;
-}
-
-/*header*/
-header {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: #3c3f41;
-    box-shadow: 0 0 10px #3c3f41;
-    border-bottom: 1px solid black;
-    margin-bottom: 2px;
-}
-header ul {
-    display: block;
-    text-align: center;
-    padding-left: 0;
-}
-header ul li {
-    display: inline-block;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #2b2b2b;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-bottom: 1px solid #999;
-    border-right: 1px solid #999;
-}
-header ul li:hover {
-
-}
-header ul li.active a {
-    /*text-decoration: underline;*/
-    color: #3c3f41;
+h1 {
+    color: #444;
 }
 
 
@@ -114,8 +33,7 @@ body footer {
     width: 100%;
     padding-bottom: 5px;
     background-color: #FFF;
-    /*box-shadow: 0 -4px 2px #b1d8af;*/
-    border-top: 1px solid #3c3f41;
+    border-top: 1px solid #CCC;
     margin-top: 50px;
     position: absolute;
     bottom: 0;
@@ -134,3 +52,81 @@ body footer {
     display: inline-block;
     width: 49%;
 }
+
+
+.centered {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+a {
+    color: #a37229;
+    text-decoration: none;
+}
+
+/*header*/
+.header-container {
+    background-color: #48474D;
+    width: 100%;
+    /*border-bottom: 1px solid black;*/
+}
+
+header {
+    height: 85px;
+    display: table;
+    width: 40%;
+    margin:0 auto;
+}
+header ul {
+    display: table-row;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+header ul li {
+    display: table-cell;
+    vertical-align: middle;
+    transition: all .2s ease-out;
+}
+
+header ul li:hover {
+    background-color: #F64046;
+}
+header ul li:hover a {
+    color: #DDD;
+}
+
+header ul li a {
+    color: #999;
+}
+
+header ul li.active {
+    background-color: #F64046;
+}
+header ul li.active a {
+    color: #DDD;
+}
+
+
+/*list*/
+.cert-container ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.cert-container ul li {
+    /*position: relative;*/
+    /*display: block;*/
+    padding: .4em .4em .4em 1em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    border-radius: .3em;
+    transition: all .3s ease-out;
+}
+
+.cert-container ul li:hover {
+    background: #eee;
+}
+
