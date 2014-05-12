@@ -107,6 +107,58 @@ header ul li.active a {
     color: #DDD;
 }
 
+.fluid-row {
+    width: 98%;
+    height: 100%;
+    margin-bottom: 2%;
+    display: block;
+    clear: both;
+}
+.col4 {
+    float: left;
+    margin-right: -100%;
+    border: 1px solid black;
+    /*width: 32%;*/
+    height: 180px;
+    margin-bottom: 2%;
+}
+.push0 {
+    margin-left: 0%;
+}
+.push4 {
+    margin-left: 34%;
+}
+.push8 {
+    margin-left: 68%;
+}
+
+.cert-img {
+    width: 300px;
+    height: 160px;
+    min-width: 300px;
+
+}
+.img-mongo-java {
+    background-image: url('../img/mongo-java.png');
+}
+.img-mongo-dba {
+    background-image: url('../img/mongo-dba.png');
+}
+.img-java-pro {
+    background-image: url('../img/java-programmer.png');
+}
+.img-java-web {
+    background-image: url('../img/java-programmer.png');
+}
+
+.col-glow {
+    transition: all .3s ease-out;
+}
+.col-glow:hover {
+    /*box-shadow: 0px 0px 5px #000;*/
+    -webkit-filter: brightness(120%);
+}
+
 
 /*list*/
 .cert-container ul {
